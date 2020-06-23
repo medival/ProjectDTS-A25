@@ -71,7 +71,7 @@ header>.container {
 .header-left>h2.header-logo {
     font-family: Poppins;
     font-size: 20px;
-    margin: 35px 70px 0 0;
+    margin: 30px 2rem 0 0;
 }
 
 .header-left>.header-menu>ul>li {
@@ -79,7 +79,7 @@ header>.container {
     display: inline-block;
     font-family: Poppins;
     font-size: 18px;
-    margin: 35px 28px 0 0;
+    margin: 30px 0 0 0;
     font-weight: normal;
     text-transform: uppercase;
 }
@@ -104,7 +104,7 @@ hr:hover {
     font-family: Poppins;
     width: 160px;
     text-align: right;
-    margin: 35px 0 0 0;
+    margin: 30px 0 0 0;
 }
 
 /* End of Header */
@@ -176,15 +176,18 @@ hr:hover {
 }
 
 .getstarted {
-    padding: 23px 62px;
+    background-color: #fff;
+    padding: 20px 0 0 0;
+    /* margin-left: auto; */
     /* margin: 23px 62px; */
     background-color: #3079FF;
     cursor: pointer;
     /* box-shadow: 0 7px #0000FF; */
     font-family: Roboto;
     font-size: 20px;
-    width: 250px;
-    height: 70px;
+    width: 200px;
+    height: 60px;
+    /* margin: 0 auto; */
 }
 
 .getstarted:active {
@@ -206,6 +209,7 @@ hr:hover {
     /* width: 100%; */
     /* height: 530px; */
     background-color: #F8F8F8;
+    padding-bottom: 3rem;
     /* margin: 0 auto; */
 }
 
@@ -213,7 +217,7 @@ h2.services-header {
     font-family: Poppins;
     font-size: 38px;
     font-weight: Medium;
-    padding: 65px 45px 0 0;
+    padding: 65px 0 0 0;
     text-align: center;
     letter-spacing: 5px;
     text-transform: uppercase;
@@ -300,7 +304,7 @@ h2.clients-header {
 
 .team {
     /* width: 100%; */
-    height: 512px;
+    /* height: 512px; */
     background-color: #F8F8F8;
     text-align: center;
     /* margin: 0 auto; */
@@ -326,11 +330,12 @@ h2.team-header {
     /* display: flex; */
     /* justify-content: center; */
     display: inline-block;
-    width: 22%;
-    height: 284px;
+    width: 20%;
+    /* height: 284px; */
     /* background-color: red; */
     /* margin: 0 1rem; */
     /* max-width: 14rem; */
+    padding-bottom: 2rem;
 }
 
 .member>.member-picture {
@@ -436,7 +441,7 @@ h6.footer-title {
 
 .footer-right button {
     width: 92px;
-    height: 33px;
+    height: 31px;
     text-transform: uppercase;
     background-color: #3079FF;
     /* padding-left: 15px; */
