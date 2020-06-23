@@ -134,6 +134,7 @@ hr:hover {
     /* padding-bottom: 14px; */
     line-height: 24px;
     margin: 0 0 32px 0;
+    max-width: 80%;
 }
 
 .right-header {
