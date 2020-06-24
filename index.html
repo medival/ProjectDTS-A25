@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="css/hover-min.css">
 </head>
 
-<body>
+<body id="home">
     <!-- Header -->
     <header class="col-12">
         <div class="container">
@@ -22,22 +22,22 @@
                 <div class="header-menu">
                     <ul>
                         <li>
-                            <a href="#" class="hvr-bounce-to-right">
+                            <a href="#home" class="hvr-bounce-to-right">
                                 Home
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hvr-bounce-to-right">
-                                Service
+                            <a href="#services" class="hvr-bounce-to-right">
+                                Services
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hvr-bounce-to-right">
+                            <a href="#client" class="hvr-bounce-to-right">
                                 Client
                             </a>
                         </li>
                         <li>
-                            <a href="#" class="hvr-bounce-to-right">
+                            <a href="#team" class="hvr-bounce-to-right">
                                 Our Team
                             </a>
                         </li>
@@ -76,7 +76,7 @@
     <!-- End of Main Menu -->
 
     <!-- Services -->
-    <div class="services-wrapper col-12">
+    <div class="services-wrapper col-12" id="services">
         <div class="container">
             <h2 class="services-header col-12">
                 Services
@@ -120,7 +120,7 @@
     <!-- End of Services -->
 
     <!--  Our Client -->
-    <div class="clients-wrapper col-12">
+    <div class="clients-wrapper col-12" id="client">
         <div class="container">
             <h2 class="clients-header col-12">
                 OUR CLIENTS
@@ -136,14 +136,14 @@
     <!--  End of Our Client -->
 
     <!-- Team Section -->
-    <div class="team col-12">
+    <div class="team col-12" id="team">
         <div class="container">
             <h2 class="team-header col-12">
                 Our awesome team
             </h2>
             <div class="member col-3-member">
-                <img src=assets/member/adi.png alt="" class="member-picture">
-                <h6 class="member-name">
+                <img src=assets/member/adi.png alt="" class="member-picture hvr-grow">
+                <h6 class="member-name hvr-overline-from-center">
                     Adi Purnomo
                 </h6>
                 <div class="social">
@@ -159,8 +159,8 @@
                 </div>
             </div>
             <div class="member col-3-member">
-                <img src=assets/member/ai.png alt="" class="member-picture">
-                <h6 class="member-name">
+                <img src=assets/member/ai.png alt="" class="member-picture hvr-grow">
+                <h6 class="member-name hvr-overline-from-center">
                     Ai Minhatul Mawaddah
                 </h6>
                 <div class="social">
@@ -176,8 +176,8 @@
                 </div>
             </div>
             <div class="member col-3-member">
-                <img src=assets/member/almer.png alt="" class="member-picture">
-                <h6 class="member-name">
+                <img src=assets/member/almer.png alt="" class="member-picture hvr-grow">
+                <h6 class="member-name hvr-overline-from-center">
                     Almer Farras Nur Ardi
                 </h6>
                 <div class="social">
@@ -193,8 +193,8 @@
                 </div>
             </div>
             <div class="member col-3-member">
-                <img src=assets/member/indah.png alt="" class="member-picture">
-                <h6 class="member-name">
+                <img src=assets/member/indah.png alt="" class="member-picture hvr-grow">
+                <h6 class="member-name hvr-overline-from-center">
                     Indah Putri Lestari
                 </h6>
                 <div class="social">
@@ -276,3 +276,12 @@
 </footer>
 
 </html>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15.0.0/dist/smooth-scroll.polyfills.min.js"></script>
+<script>
+    var scroll = new SmoothScroll('a[href*="#"]', {
+        speed: 1000,
+        speedAsDuration: true
+    });
+</script>
