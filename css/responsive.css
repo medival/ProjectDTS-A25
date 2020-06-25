@@ -71,9 +71,28 @@
         font-size: 32px;
     }
 
+    .left-header>p.subtitle {
+        margin: 0 auto;
+    }
+
     .getstarted {
         /* margin: 0 auto; */
         padding: 20px 0 0 10px;
+    }
+
+    h2.services-header {
+        font-size: 28px;
+        background-color: red;
+    }
+
+    .services-content>.content {
+        background-color: #fff;
+        width: 48%;
+        margin: 0 auto;
+    }
+
+    h5.service-title {
+        width: 100%;
     }
 
     /* .btn-wrapper { */
@@ -172,10 +191,19 @@
 
     }
 
-    .content {
-        width: 35%;
-        margin: 0rem 1rem;
-        padding: 1rem 0;
+    h2.services-header {
+        font-size: 28px;
+        background-color: red;
+    }
+
+    .services-content>.content {
+        background-color: #fff;
+        width: 48%;
+        margin: 0 auto;
+    }
+
+    h5.service-title {
+        width: 100%;
     }
 
     .clients {
@@ -235,8 +263,9 @@
 
     .menuToggle {
         display: block;
-        margin: 2.3rem 0 0 2rem;
-        width: 5rem;
+        margin: 2.3rem 0 0 1rem;
+        /* width: 1rem; */
+        background-color: #fff;
     }
 
     .menu-header {
@@ -249,12 +278,18 @@
         display: none;
     }
 
-    .header-right a {
-        width: 10rem;
+    .header-right {
+        /* background-color: #eee; */
+    }
+
+    .services-content>.content {
+        background-color: #fff;
+        width: 100%;
+        margin: 0 auto;
     }
 
     .content {
-        width: 70%;
+        width: 80%;
         /* margin: 0rem 1rem;
         padding: 1rem 0; */
     }
@@ -363,6 +398,10 @@
         width: 100%;
         display: flex;
         /* flex-wrap: wrap; */
+    }
+
+    footer>.container {
+        width: 100%;
     }
 
     .footer-left {
