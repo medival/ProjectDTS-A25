@@ -28,6 +28,10 @@ body {
     width: 100%;
 }
 
+p {
+    color: #393939;
+}
+
 .clear {
     clear: left;
 }
@@ -389,6 +393,10 @@ footer {
 footer>.container {
     display: flex;
     flex-direction: row;
+}
+
+footer p {
+    color: #fff;
 }
 
 h6.footer-title {

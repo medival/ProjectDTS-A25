@@ -313,13 +313,17 @@
         width: 100%;
     }
 
-    .footer-left {
-        width: 55%;
+    footer h6 {
+        font-size: 1rem;
     }
 
-    .footer-right {
+    /* .footer-left {
+        width: 55%;
+    } */
+
+    /* .footer-right {
         width: auto;
-    }
+    } */
 
     .footer-right button,
     .footer-right input {
@@ -337,8 +341,6 @@
     }
 
     .top-wrapper {
-        display: flex;
-        flex-direction: row-reverse;
         margin-bottom: 20rem;
         /* padding-top: 15rem; */
     }
@@ -346,17 +348,30 @@
     .right-header {
         width: 100%;
         /* z-index: 1; */
+        /* background-color: red; */
     }
 
     .left-header {
-        width: 80%;
+        /* background-color: blue; */
+        /* width: 80%; */
         top: 0;
         position: absolute;
         margin-top: 38rem;
     }
 
-    .get-started {
+    .left-header>h1.title {
+        width: 100%;
+    }
+
+    .left-header>p.subtitle {
+        width: 100%;
+    }
+
+    .getstarted {
         /* justify-content: center; */
+        width: 12rem;
+        height: 3rem;
+        padding: 0.8rem 0 0 0;
         margin: 0 auto;
     }
 
@@ -367,8 +382,9 @@
     h2.clients-header,
     h2.services-header,
     h2.team-header {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         font-weight: bold;
+        color: #393939
     }
 
     .clients>.client {
@@ -394,30 +410,27 @@
         padding-bottom: 1rem;
     }
 
-    footer {
-        width: 100%;
-        display: flex;
-        /* flex-wrap: wrap; */
-    }
-
     footer>.container {
-        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        /* width: 100%; */
+        flex-direction: column;
     }
 
-    .footer-left {
-        min-width: 50%;
-    }
-
-    .footer-middle {
-        min-width: 20%;
-    }
-
+    .footer-left,
+    .footer-middle,
     .footer-right {
-        min-width: auto;
+        width: 100%;
     }
 
     .footer-right button,
     .footer-right input {
         width: 100%;
+    }
+
+    .footer-right>.social-solid {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
