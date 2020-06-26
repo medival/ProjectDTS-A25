@@ -93,7 +93,7 @@ header>.container {
     color: #fff;
     /* background-color: #fff; */
     padding: 0 0.5rem;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
 }
 
 /* .header-menu a:hover,
@@ -145,6 +145,7 @@ hr:hover {
     line-height: 24px;
     margin: 0 0 0 0;
     max-width: 80%;
+    height: 4.5rem;
 }
 
 .right-header {
@@ -352,6 +353,7 @@ h2.team-header {
     /* margin: 0 1rem; */
     /* max-width: 14rem; */
     padding-bottom: 2rem;
+    margin: 0 1rem;
 }
 
 .member>.member-picture {
@@ -387,6 +389,7 @@ footer {
     width: 100%;
     background-color: #2A2B40;
     color: #fff;
+    padding-bottom: 1.5rem;
     /* height: 250px; */
 }
 
