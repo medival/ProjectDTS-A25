@@ -165,6 +165,10 @@
         display: none;
     }
 
+    .header-right a {
+        padding-top: 0.2rem;
+    }
+
     .left-header>h1.title {
         font-size: 28px;
     }
